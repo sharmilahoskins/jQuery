@@ -1,0 +1,44 @@
+<!-- View
+
+Create an input tag for the user's guess.
+Create a button tag to send the user's guess to the Javascript code.
+Create a p tag for the game's feedback (whether the guess is too high/too low/the user has won or lost). -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+    <script type ='text/javascript' src='hiLow.js'></script>
+    <link rel= 'stylesheet' type='text/css' href='hiLow.css'>
+
+
+    <title>High/Low</title>
+  </head>
+  <body>
+    <!-- <div id="nameBox">
+      <h1>What's your name?</h1>
+      <input id = "namePrompt" type = "text"  />
+      <input type = "button" value="submit" onclick = "userName()" />
+    </div> -->
+
+    <h1 id= "prompt">Guess a number between 1 and 100</h1>
+    <input id = "num" type = "text"  />
+    <button id="submitButton">Submit your guess</button>
+
+    <!-- <input type = "button" value="submit" onclick = "userGuess()" /> -->
+    <p id="result"></p>
+
+<p id="yourGuesses">Your Guesses: </p>
+
+<ul>
+
+</ul>
+
+  </body>
+</html>
